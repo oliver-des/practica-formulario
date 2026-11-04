@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <main>
+        <h1> ¡Regístrate en el club! </h1>
+
+
+
+        <form name="formularioRegistro" id="formularioRegistro" accept-charset="UTF-8" novalidate>
+
+            <h2> Datos Personales </h2>
+
+            <fieldset>
+
+                <legend> 1. Nombre completo </legend>
+
+                <label for="nombre"> </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+
+                <label for="apellidos"> </label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellido" required>
+
+            </fieldset> <br>
+
+            <fieldset>
+
+                <legend> 2. Edad y Género </legend>
+
+                <label for="edad"> </label>
+                <input type="number" id="edad" name="edad" placeholder="Edad" min="16" max="99" required> <br><br>
+
+
+                <label for="masculino"> Masculino </label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+
+                <label for="femenino"> Femenino </label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+
+            </fieldset> <br>
+
+            <fieldset>
+
+                <legend> 3. ¿Eres socio del club? </legend>
+
+                <label for="socio"> Si </label>
+                <input type="checkbox" id="socio" name="socio" value="Si.">
+
+                <label for="noSocio"> No </label>
+                <input type="checkbox" id="noSocio" name="socio" value="No.">
+
+            </fieldset> <br>
+
+            <fieldset>
+
+                <legend> 4. Sobre ti </legend>
+
+                <label for="sobreTi"> </label>
+                <textarea id="sobreTi" name="sobreTi" rows="10" cols="50"
+                    placeholder="¿Quieres contarnos algo?"></textarea>
+
+            </fieldset>
+
+            <h2> Datos de Contacto </h2>
+
+            <br>
+            <br>
+            
+            <input type="submit" id="botonEnviar" value="Enviar">
+            <input type="reset" id="botonEnviar" value="Reset">
+
+        </form>
+
+    </main>
+
+    <script src="js/main.js"> </script>
+</body>
+
+</html>

@@ -1,11 +1,3 @@
-/* TODO
-- Mantener novalidate y comprobar en tu JavaScript que la edad esté entre edad.min y edad.max.
-- El submit nunca se ejecuta...
-- Acabar
-*/
-
-
-
 //VARIABLES
 const formulario = document.querySelector('#formularioRegistro')
 
